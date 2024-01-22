@@ -25,6 +25,8 @@ public class Main {
         /*3 query*/
         List<Specialization> studentsWithTwoFields = selectTwoFields();
         studentsWithTwoFields.forEach(System.out::println);
+
+        //:)
     }
 
     private static List<Specialization> selectTwoFields() {
